@@ -1,7 +1,7 @@
 ## This function handles a list of functions that will check if the inverse
 ## of a matrix has been calculated.  If it has been calculated, it will 
 ## pull it from the cache.  If not, it will cacluate the inverse and return
-## result and store it in cache.  This assumes that it is square matrix
+## result and store it in cache.  This assumes that it is an invertible matrix.
 
 ## makeCacheMatrix creates a list of functions that stores and retrieves
 ## the matrix and inverse from cache
